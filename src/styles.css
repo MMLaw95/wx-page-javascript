@@ -209,9 +209,10 @@ img#current-emoji {
 
 .current-focus-details {
   display: block;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff;
+  /* text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff; */
   font-weight: 400;
+  color: #fff;
   position: relative;
   bottom: -31px;
 }
@@ -225,9 +226,12 @@ ul.current-details {
 }
 
 #current-temp {
+  color: #000;
   font-size: 95px;
   font-weight: 600;
   line-height: 0.8;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
 }
 
 #press-two {
