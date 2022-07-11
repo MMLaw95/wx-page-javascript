@@ -47,12 +47,12 @@ function displayForecast(response) {
 
   let forecastHTML = `<div class="row group-days">`;
   forecast.forEach(function (forecastDay, index) {
-    if (index < 7) {
+    if (index < 6) {
       forecastHTML =
         forecastHTML +
         `
-      <div class="col-md g-0">
-        <ul class="list-group list-group-flush border-right-2">
+      <div class="col-md g-3">
+        <ul class="list-group list-group-flush border-0">
           <li class="list-group-item" style="border: none" id="day-week">
           <span class="weather-forecast-day">${formatDay(forecastDay.dt)}</span>
           </li>

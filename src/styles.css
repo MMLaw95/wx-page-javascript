@@ -12,6 +12,7 @@ html {
 } */
 
 body {
+  margin: 0px 0px 20px;
   background-image: linear-gradient(
     to bottom,
     #db9a16,
@@ -254,6 +255,16 @@ ul.current-details {
   text-transform: capitalize;
 }
 
+.footer {
+  /* display: flex; */
+  text-align: center;
+  margin: 30px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
 /* #day-week,
 #emoji-week,
 #high-low-week {
@@ -295,6 +306,9 @@ ul.current-details {
     position: relative;
     bottom: 45px;
   }
+}
+.lows {
+  opacity: 0.6;
 }
 
 @media (max-width: 576px) {
