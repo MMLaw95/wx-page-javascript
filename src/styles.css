@@ -35,7 +35,7 @@ body {
 } */
 
 .container {
-  max-width: 677px;
+  max-width: 680px;
 }
 
 .weather-app {
@@ -143,7 +143,7 @@ a:link {
 }
 
 .weather-temperature a {
-  color: white;
+  color: #48484a;
 }
 
 .weather-temperature a:hover {
@@ -151,13 +151,13 @@ a:link {
 }
 
 #fahrenheit-link:inactive {
-  color: white;
+  color: #48484a;
   transition: all 0.2s ease-in-out;
   text-shadow: none;
 }
 
 #celsius-link:inactive {
-  color: white;
+  color: #48484a;
   transition: all 0.2s ease-in-out;
   text-shadow: none;
 }
@@ -312,9 +312,9 @@ ul.current-details {
   /* .list-group-item {
     background-color: #ce8c1a;
   } */
-  .current-focus-details {
+  /* .current-focus-details {
     bottom: 60px;
-  }
+  } */
 }
 
 /* img .current-emoji {
