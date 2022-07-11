@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tejas Weather Page</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/630ef5f310.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+     <div class="weather-app">
+     <header>
+      <div class="row">
+        <div class="col">
+              <ul class="texas-cities">
+                <li class="texas-city">
+                    <a href="#" class="city-color" id="city-austin">Austin</a>
+                  </li>
+                <li class="texas-city">
+                    <a href="#" class="city-color" id="city-dallas">Dallas</a>
+                  </li>
+                <li class="texas-city">
+                    <a href="#" class="city-color" id="city-elPaso">El Paso</a>
+                  </li>
+                <li class="texas-city">
+                    <a href="#" class="city-color" id="city-houston">Houston</a>
+                  </li>
+                <li class="texas-city">
+                    <a href="#" class="city-color" id="city-sanAntonio"
+                      >San Antonio</a
+                    >
+                </li>
+              </ul>
+        </div>
+      </div>
+  </header>
+
+    <section>
+      <div class="row justify-content-center">
+       <div class="col-6 p-1">
+        <div class="search-bar">
+          <form class="float-left" id="search-form-input">
+            <input
+              type="search"
+              placeholder="Search any city..."
+              autofocus="on"
+              autocomplete="off"
+              class="form-control shadow-sm rounded-0"
+              id="city-search"
+            />
+        </div>
+        </div>
+        <div class="col-2 p-1"> 
+            <input
+              class="form-control btn btn-light shadow-sm rounded-0"
+              type="submit"
+              value="Search"
+              id="press-one"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      
+      <div class="row detail-block">
+        <div class="col-md text-center">
+          <div id="star-city"></div>
+            <img
+              src=""
+              alt="Clear"
+              id="current-emoji"
+              class="d-block"
+              width="220"
+            />
+          </div>
+      
+          <div class="col-md text-center">
+            <div class="current-focus-details ">
+              <div class="clearfix weather-temperature">
+                <div class="float-right">
+                  <span id="current-temp"></span>
+                  <span id="units"
+                    ><a href="#" id="fahrenheit-link" class="active">°F</a> |<a
+                      href="#"
+                      id="celsius-link"
+                      >°C</a
+                    ></span
+                  >
+                  <ul class="current-details">
+                    <li>
+                      <span id="current-day-date-time"></span>
+                    </li>
+                    <li>Feels Like: <span id="feels-like-temp"></span>°</li>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Wind: <span id="wind-speed"></span> mph</li>
+                    <li>
+                      <span id="weather-description"></span>
+                    </li>
+                    <li>
+                      <button class="btn btn-light rounded-0" id="press-two" type="click">
+                        Current Location
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+ 
+
+   
+    </section>
+
+    <section>
+        <div class="weather-forecast text-center" id="forecast"></div>
+    </section>
+  </div>
+    </div>
+
+      <!-- <div class="footer">
+        <small
+          ><a href="https://github.com/MMLaw95/first-wx-page" id="mailColor"
+            >Open-source code</a
+          >
+          Made in Texas by
+          <a href="mailto:mlawry95@gmail.com" id="mailColor">M.M. Lawry</a>
+        </small>
+      </div>
+    </div> -->
+    <script src="/src/app.js"></script>
+  </body>
+</html>
