@@ -211,7 +211,7 @@ img#current-emoji {
   display: block;
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
-  font-weight: 900;
+  font-weight: 400;
   position: relative;
   bottom: -31px;
 }
@@ -289,7 +289,7 @@ ul.current-details {
   .current-focus-details {
     text-align: center;
     position: relative;
-    bottom: 29px;
+    bottom: 45px;
   }
 }
 
