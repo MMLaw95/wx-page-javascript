@@ -22,7 +22,7 @@ body {
   );
   background-position: center 40px;
   background-repeat: no-repeat;
-  background-size: 900px 575px;
+  background-size: 768px 575px;
   /* background: url("/src/clouds.jpg") no-repeat cover; */
   /* background-color: #dee2e6; */
   overflow-x: hidden;
@@ -35,7 +35,7 @@ body {
 } */
 
 .container {
-  max-width: 768px;
+  max-width: 677px;
 }
 
 .weather-app {
@@ -89,6 +89,10 @@ ul.texas-cities {
     -1px -1px 0 #fff;
 }
 
+/* #city-sanAntonio {
+  margin-left: 0px;
+} */
+
 /* nav a {
   color: black;
   font-weight: 700;
@@ -124,9 +128,38 @@ form .form-control:focus {
   background: #48484a;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 #units {
   position: relative;
   top: -55px;
+}
+
+.weather-temperature .active {
+  cursor: default;
+  color: black;
+}
+
+.weather-temperature a {
+  color: white;
+}
+
+.weather-temperature a:hover {
+  color: black;
+}
+
+#fahrenheit-link:inactive {
+  color: white;
+  transition: all 0.2s ease-in-out;
+  text-shadow: none;
+}
+
+#celsius-link:inactive {
+  color: white;
+  transition: all 0.2s ease-in-out;
+  text-shadow: none;
 }
 
 /* #press-one:visited {
@@ -147,18 +180,31 @@ form .form-control:focus {
   color: white;
 } */
 
+.detail-block {
+  text-align: end;
+}
 #star-city {
-  display: inline-block;
   font-size: 58px;
-  text-align: center;
   position: relative;
   top: 18px;
-  /* margin-top: -8px; */
-  /* margin-left: 263.3px; */
   text-transform: capitalize;
   color: black;
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
+}
+/* img#current-emoji {
+  float: right;
+  margin-right: -29px;
+  margin-left: auto;
+  position: relative;
+  bottom: 10px;
+} */
+
+img#current-emoji {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
 }
 
 .current-focus-details {
@@ -182,16 +228,13 @@ ul.current-details {
   font-size: 95px;
   font-weight: 600;
   line-height: 0.8;
-  /* text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff; */
 }
 
 #press-two {
   background: #000;
-  /* outline-color: #fff; */
   color: white;
   transition: all 0.2s ease-in-out;
-  margin: 7px;
+  margin: 7px 0 0;
 }
 
 #press-two:hover {
@@ -203,6 +246,10 @@ ul.current-details {
   bottom: 13px;
 }
 
+#weather-description {
+  text-transform: capitalize;
+}
+
 /* #day-week,
 #emoji-week,
 #high-low-week {
@@ -210,31 +257,63 @@ ul.current-details {
   color: #fff;
 } */
 
-img {
+/* img {
   margin: 0 auto;
   text-align: center;
-}
+} */
 
 @media (max-width: 768px) {
-  .current-focus-details {
-    position: relative;
-    bottom: 78px;
+  body {
+    background-color: #000;
   }
-  #current-emoji {
+  .detail-block {
+    text-align: center;
+  }
+
+  #star-city {
+    text-align: center;
     position: relative;
-    top: -44px;
+    top: -3px;
+  }
+  img#current-emoji {
+    position: relative;
+    bottom: 33px;
+  }
+  .current-temp {
+    font-size: 84px;
+  }
+  .list-group-item {
+    background-color: #ce8c1a;
+  }
+
+  .current-focus-details {
+    text-align: center;
+    position: relative;
+    bottom: 29px;
   }
 }
 
 @media (max-width: 576px) {
-  body {
+  /* body {
     background-color: #000;
-  }
+  } */
   .btn {
     width: auto !important;
   }
-  .list-group-item {
+  /* #star-city {
+    text-align: center;
+    position: relative;
+    top: -3px
+} */
+  /* img#current-emoji {
+    right: -133px;
+    top: -38px;
+  } */
+  /* .list-group-item {
     background-color: #ce8c1a;
+  } */
+  .current-focus-details {
+    bottom: 60px;
   }
 }
 
