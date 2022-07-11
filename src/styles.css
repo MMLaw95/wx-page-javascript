@@ -110,6 +110,10 @@ nav li {
   column-width: 20px;
 } */
 
+form .form-control:focus {
+  border-color: #000;
+}
+
 #press-one {
   background: #000;
   color: white;
