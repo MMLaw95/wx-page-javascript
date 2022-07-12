@@ -141,6 +141,8 @@ a:link {
 .weather-temperature .active {
   cursor: default;
   color: black;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
 }
 
 .weather-temperature a {
