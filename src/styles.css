@@ -29,12 +29,6 @@ body {
   overflow: auto;
 }
 
-/* body {
-  background: url("/src/clouds.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 .container {
   max-width: 680px;
 }
@@ -42,31 +36,6 @@ body {
 .weather-app {
   border-radius: 25px;
 }
-
-/* ul.texas-cities {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  font-weight: 500;
-  list-style-type: none;
-  margin-right: -62px;
-  margin-top: 14px;
-  margin-left: 186px;
-  padding: 1px 13px 19px 0px;
-  gap: 7px;
-  text-shadow: -1px 1px 0 #052665, 1px 1px 0 #052665, 1px -1px 0 #052665,
-    -1px -1px 0 #052665;
-  font-size: 14px;
-} */
-
-/* nav {
-  padding: 0px 20px;
-  display: flex;
-  font-size: 14px;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-} */
 
 ul.texas-cities {
   text-align: center;
@@ -89,31 +58,6 @@ ul.texas-cities {
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
 }
-
-/* #city-sanAntonio {
-  margin-left: 0px;
-} */
-
-/* nav a {
-  color: black;
-  font-weight: 700;
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff;
-}
-
-nav a:hover {
-  color: #b90c2f;
-}
-
-nav li {
-  color: white;
-} */
-
-/* .weather-forecast {
-  column-width: 20px;
-} */
 
 form .form-control:focus {
   border-color: #000;
@@ -165,24 +109,6 @@ a:link {
   text-shadow: none;
 }
 
-/* #press-one:visited {
-  background-color: #000;
-  outline-color: white;
-  color: white;
-}
-
-#press-one:link {
-  background-color: #000;
-  outline-color: white;
-  color: white;
-}
-
-#press-one:active {
-  background-color: #000;
-  outline-color: white;
-  color: white;
-} */
-
 .detail-block {
   text-align: end;
 }
@@ -195,13 +121,6 @@ a:link {
   text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
     -1px -1px 0 #fff;
 }
-/* img#current-emoji {
-  float: right;
-  margin-right: -29px;
-  margin-left: auto;
-  position: relative;
-  bottom: 10px;
-} */
 
 img#current-emoji {
   margin: 0 auto;
@@ -212,8 +131,6 @@ img#current-emoji {
 
 .current-focus-details {
   display: block;
-  /* text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff; */
   font-weight: 400;
   color: #fff;
   position: relative;
@@ -250,11 +167,15 @@ ul.current-details {
 
 .group-days {
   position: relative;
-  bottom: 13px;
+  bottom: 33px;
 }
 
 #weather-description {
   text-transform: capitalize;
+}
+
+.lows {
+  opacity: 0.6;
 }
 
 .footer {
@@ -266,18 +187,6 @@ ul.current-details {
   justify-content: center;
   padding: 5px;
 }
-
-/* #day-week,
-#emoji-week,
-#high-low-week {
-  background-color: #000;
-  color: #fff;
-} */
-
-/* img {
-  margin: 0 auto;
-  text-align: center;
-} */
 
 @media (max-width: 768px) {
   body {
@@ -309,253 +218,9 @@ ul.current-details {
     bottom: 45px;
   }
 }
-.lows {
-  opacity: 0.6;
-}
 
 @media (max-width: 576px) {
-  /* body {
-    background-color: #000;
-  } */
   .btn {
     width: auto !important;
   }
-  /* #star-city {
-    text-align: center;
-    position: relative;
-    top: -3px
-} */
-  /* img#current-emoji {
-    right: -133px;
-    top: -38px;
-  } */
-  /* .list-group-item {
-    background-color: #ce8c1a;
-  } */
-  /* .current-focus-details {
-    bottom: 60px;
-  } */
 }
-
-/* img .current-emoji {
-  position: relative;
-  bottom: 25px;
-} */
-
-/* .city-color {
-  color: white;
-}
-
-.city-color:hover {
-  color: #b90c2f;
-} */
-
-/* .search-bar {
-  width: 1015px;
-  margin-left: 170.5px;
-  margin-top: -29px;
-}
-
-#city-search {
-  width: 219.5px;
-  margin-left: 16px;
-  height: 32px;
-  font-size: 14px;
-}
-
-#press-one {
-  background-color: #b90c2f;
-  color: white;
-  width: 70.8281px;
-  margin-left: 239px;
-  margin-top: -60px;
-  transition: all 0.2s ease-in-out;
-  font-size: 14px;
-}
-
-#press-one:hover {
-  background-color: #a00928;
-  outline-color: white;
-  color: white;
-}
-
-#press-one:visited {
-  background-color: #b90c2f;
-  outline-color: white;
-  color: white;
-}
-
-#press-one:link {
-  background-color: #b90c2f;
-  outline-color: white;
-  color: white;
-}
-
-#press-one:active {
-  background-color: #b90c2f;
-  outline-color: white;
-  color: white;
-}
-
-#star-city {
-  display: block;
-  font-size: 43px;
-  text-align: center;
-  margin-top: -8px;
-  margin-left: 263.3px;
-  text-transform: capitalize;
-  color: white;
-  line-height: 18x;
-  line-height: 0.9;
-  text-shadow: -1px 1px 0 #052665, 1px 1px 0 #052665, 1px -1px 0 #052665,
-    -1px -1px 0 #052665;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-#current-temp {
-  font-size: 95px;
-  font-weight: 600;
-  line-height: 0.8;
-}
-
-.current-focus-details {
-  display: ;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff;
-  margin-top: -39px;
-  margin-left: 175px;
-  width: 229px;
-}
-
-.current-focus-details {
-  display: block;
-  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
-    -1px -1px 0 #fff;
-  margin-top: -39px;
-  margin-left: 175px;
-  width: 229px;
-}
-
-ul.current-details {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 1.25;
-  text-align: justify;
-}
-
-#weather-description {
-  text-transform: capitalize;
-}
-
-.weather-temperature #units {
-  cursor: default;
-  font-weight: 500;
-  top: -53px;
-  position: relative;
-}
-
-.weather-temperature .active {
-  cursor: default;
-  color: black;
-}
-
-.weather-temperature a {
-  color: #b90c2f;
-}
-
-.weather-temperature a:hover {
-  color: black;
-}
-
-#fahrenheit-link:inactive {
-  color: #b90c2f;
-  transition: all 0.2s ease-in-out;
-}
-
-#celsius-link:inactive {
-  color: #b90c2f;
-  transition: all 0.2s ease-in-out;
-}
-
-#press-two {
-  background-color: #052665;
-  font-size: 13px;
-  color: white;
-  margin-top: 5px;
-  transition: all 0.2s ease-in-out;
-}
-
-#press-two:hover {
-  background-color: #052665;
-  outline-color: #b90c2f;
-  color: white;
-}
-
-#current-emoji {
-  margin-top: -92px;
-  margin-left: -81px;
-}
-
-#bottom {
-  margin-left: 200px;
-}
-
-#group-days {
-  margin-top: 105px;
-  position: relative;
-  left: 0px;
-}
-
-#day-week {
-  text-align: center;
-  font-size: large;
-  font-weight: 500;
-  line-height: 2;
-  margin: 0px;
-  padding: 0px;
-}
-
-#emoji-week {
-  line-height: 2;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-}
-
-#high-low-week {
-  font-size: 14px;
-  line-height: 2;
-  color: #6c757d;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-}
-
-.highs {
-  font-weight: bolder;
-  color: black;
-}
-
-.lows {
-  opacity: 0.8;
-}
-
-.footer {
-  position: fixed;
-  margin: 10px;
-  padding: 5px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  text-shadow: 1x 2x #fff;
-}
-
-#mailColor {
-  color: #b90c2f;
-} */
