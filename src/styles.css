@@ -13,8 +13,16 @@ html {
 
 body {
   margin: 0px 0px 20px;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
+    #db9a16,
+    #b5652b,
+    #7f3d2e,
+    #422022,
+    #000000
+  ); */
+  background-image: linear-gradient(
+    to top,
     #db9a16,
     #b5652b,
     #7f3d2e,
@@ -205,7 +213,7 @@ ul.current-details {
   }
   img#current-emoji {
     position: relative;
-    bottom: 33px;
+    bottom: 36px;
   }
   .current-temp {
     font-size: 84px;
@@ -217,7 +225,7 @@ ul.current-details {
   .current-focus-details {
     text-align: center;
     position: relative;
-    bottom: 45px;
+    bottom: 60px;
   }
 }
 
