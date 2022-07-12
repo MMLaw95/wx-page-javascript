@@ -173,84 +173,84 @@ clickFahrenheit.addEventListener("click", showFahrenheit);
 let clickCelsius = document.querySelector("#celsius-link");
 clickCelsius.addEventListener("click", showCelsius);
 
-function displayAustin(event) {
+function displayLondon(event) {
   event.preventDefault();
-  let showAustin = document.querySelector("#star-city");
-  showAustin.innerHTML = "Austin";
+  let showLondon = document.querySelector("#star-city");
+  showLondon.innerHTML = "London";
 }
-let clickAustin = document.querySelector("#city-austin");
-clickAustin.addEventListener("click", displayAustin);
+let clickLondon = document.querySelector("#city-london");
+clickLondon.addEventListener("click", displayLondon);
 
-function lookUpAustin(event) {
-  let city = "Austin";
+function lookUpLondon(event) {
+  let city = "London";
   let apiKey = "a4291214a1e333b12b6de7b256df44ea";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
-clickAustin.addEventListener("click", lookUpAustin);
+clickLondon.addEventListener("click", lookUpLondon);
 
-function displayDallas(event) {
+function displayTokyo(event) {
   event.preventDefault();
-  let showDallas = document.querySelector("#star-city");
-  showDallas.innerHTML = "Dallas";
+  let showTokyo = document.querySelector("#star-city");
+  showTokyo.innerHTML = "Tokyo";
 }
-let clickDallas = document.querySelector("#city-dallas");
-clickDallas.addEventListener("click", displayDallas);
+let clickTokyo = document.querySelector("#city-tokyo");
+clickTokyo.addEventListener("click", displayTokyo);
 
-function lookUpDallas(event) {
-  let city = "Dallas";
+function lookUpTokyo(event) {
+  let city = "Tokyo";
   let apiKey = "a4291214a1e333b12b6de7b256df44ea";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
-clickDallas.addEventListener("click", lookUpDallas);
+clickTokyo.addEventListener("click", lookUpTokyo);
 
-function displayElPaso(event) {
+function displayNewYork(event) {
   event.preventDefault();
-  let showElPaso = document.querySelector("#star-city");
-  showElPaso.innerHTML = "El Paso";
+  let showNewYork = document.querySelector("#star-city");
+  showNewYork.innerHTML = "New York";
 }
-let clickElPaso = document.querySelector("#city-elPaso");
-clickElPaso.addEventListener("click", displayElPaso);
+let clickNewYork = document.querySelector("#city-newYork");
+clickNewYork.addEventListener("click", displayNewYork);
 
-function lookUpElPaso(event) {
-  let city = "El Paso";
+function lookUpNewYork(event) {
+  let city = "New York";
   let apiKey = "a4291214a1e333b12b6de7b256df44ea";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
-clickElPaso.addEventListener("click", lookUpElPaso);
+clickNewYork.addEventListener("click", lookUpNewYork);
 
-function displayHouston(event) {
+function displayReykjavik(event) {
   event.preventDefault();
-  let showHouston = document.querySelector("#star-city");
-  showHouston.innerHTML = "Houston";
+  let showReykjavik = document.querySelector("#star-city");
+  showReykjavik.innerHTML = "Reykjavik";
 }
-let clickHouston = document.querySelector("#city-houston");
-clickHouston.addEventListener("click", displayHouston);
+let clickReykjavik = document.querySelector("#city-reykjavik");
+clickReykjavik.addEventListener("click", displayReykjavik);
 
-function lookUpHouston(event) {
-  let city = "Houston";
+function lookUpReykjavik(event) {
+  let city = "Reykjavik";
   let apiKey = "a4291214a1e333b12b6de7b256df44ea";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
-clickHouston.addEventListener("click", lookUpHouston);
+clickReykjavik.addEventListener("click", lookUpReykjavik);
 
-function displaySanAntonio(event) {
+function displayLagos(event) {
   event.preventDefault();
-  let showSanAntonio = document.querySelector("#star-city");
-  showSanAntonio.innerHTML = "San Antonio";
+  let showLagos = document.querySelector("#star-city");
+  showLagos.innerHTML = "Lagos";
 }
-let clickSanAntonio = document.querySelector("#city-sanAntonio");
-clickSanAntonio.addEventListener("click", displaySanAntonio);
+let clickLagos = document.querySelector("#city-lagos");
+clickLagos.addEventListener("click", displayLagos);
 
-function lookUpSanAntonio(event) {
-  let city = "San Antonio";
+function lookUpLagos(event) {
+  let city = "Lagos";
   let apiKey = "a4291214a1e333b12b6de7b256df44ea";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
-clickSanAntonio.addEventListener("click", lookUpSanAntonio);
+clickLagos.addEventListener("click", lookUpLagos);
 
 search("Austin");
