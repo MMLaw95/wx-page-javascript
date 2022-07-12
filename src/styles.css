@@ -32,8 +32,6 @@ body {
   background-position: center 40px;
   background-repeat: no-repeat;
   background-size: 768px 575px;
-  /* background: url("/src/clouds.jpg") no-repeat cover; */
-  /* background-color: #dee2e6; */
   overflow-x: hidden;
 }
 
@@ -188,14 +186,23 @@ ul.current-details {
   opacity: 0.6;
 }
 
-.footer {
-  /* display: flex; */
+footer,
+footer a {
   text-align: center;
+  font-size: 14px;
   margin: 30px;
-  color: #000;
-  display: flex;
-  justify-content: center;
+  color: #7f3d2e;
   padding: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #7f3d2e;
+}
+
+.by-footer {
+  margin: -29px;
+  color: #000;
 }
 
 @media (max-width: 768px) {
