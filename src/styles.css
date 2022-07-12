@@ -12,7 +12,7 @@ html {
 } */
 
 body {
-  margin: 0px 0px 20px;
+  margin: 0px 10px 20px;
   /* background-image: linear-gradient(
     to bottom,
     #db9a16,
@@ -34,7 +34,7 @@ body {
   background-size: 768px 575px;
   /* background: url("/src/clouds.jpg") no-repeat cover; */
   /* background-color: #dee2e6; */
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 .container {
@@ -213,7 +213,7 @@ ul.current-details {
   }
   img#current-emoji {
     position: relative;
-    bottom: 36px;
+    bottom: 55px;
   }
   .current-temp {
     font-size: 84px;
@@ -225,7 +225,7 @@ ul.current-details {
   .current-focus-details {
     text-align: center;
     position: relative;
-    bottom: 60px;
+    bottom: 87px;
   }
 }
 
