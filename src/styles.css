@@ -12,7 +12,7 @@ html {
 } */
 
 body {
-  margin: 0px 10px 20px;
+  margin: 0px 2px 20px;
   /* background-image: linear-gradient(
     to bottom,
     #db9a16,
@@ -245,9 +245,9 @@ footer a:hover {
 }
 
 @media (max-width: 576px) {
-  .btn {
+  /* .btn {
     width: auto !important;
-  }
+  } */
   ul.world-cities {
     font-size: 12px;
   }
