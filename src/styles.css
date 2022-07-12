@@ -3,7 +3,7 @@ html {
 }
 
 /* body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/636/original/texas.png?1650820813");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/636/original/world.png?1650820813");
   background-position: center 40px;
   background-repeat: no-repeat;
   background-size: 900px 575px;
@@ -37,7 +37,7 @@ body {
   border-radius: 25px;
 }
 
-ul.texas-cities {
+ul.world-cities {
   text-align: center;
   margin-top: 50px;
   padding: 0;
@@ -48,12 +48,12 @@ ul.texas-cities {
   /* overflow: hidden; */
 }
 
-.texas-cities li {
+.world-cities li {
   display: inline;
   margin-left: 30px;
 }
 
-.texas-cities li a {
+.world-cities li a {
   color: black;
   font-weight: 700;
   text-decoration: none;
