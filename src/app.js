@@ -51,7 +51,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-      <div class="col-md g-3">
+      <div class="col-md g-3 border-0">
         <ul class="list-group list-group-flush border-0">
           <li class="list-group-item" style="border: none" id="day-week">
           <span class="weather-forecast-day">${formatDay(forecastDay.dt)}</span>
