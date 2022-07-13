@@ -178,6 +178,10 @@ ul.current-details {
     -1px -1px 0 #fff;
 }
 
+#weather-description {
+  text-transform: capitalize;
+}
+
 #press-two {
   background: #000;
   color: white;
@@ -193,9 +197,8 @@ ul.current-details {
   position: relative;
   bottom: 33px;
 }
-
-#weather-description {
-  text-transform: capitalize;
+.list-group-item {
+  color: #000;
 }
 
 .lows {
