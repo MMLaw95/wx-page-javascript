@@ -21,12 +21,20 @@ body {
     #422022,
     #000000
   ); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to top,
     #db9a16,
     #b5652b,
     #7f3d2e,
     #422022,
+    #000000
+  ); */
+  background-image: linear-gradient(
+    to top,
+    #d1cece,
+    #989696,
+    #636262,
+    #323232,
     #000000
   );
   background-position: center 40px;
@@ -231,7 +239,7 @@ footer a:hover {
   }
 
   .list-group-item {
-    background-color: #ce8c1a;
+    background-color: #bab8b8;
   }
 
   .current-focus-details {
