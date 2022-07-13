@@ -96,13 +96,13 @@ form .form-control:focus {
   background: #48484a;
 }
 
-.mobile-search {
+#mobile-search {
   background: #000;
   color: #fff;
   transition: all 0.2s ease-in-out;
 }
 
-.mobile-search:hover {
+#mobile-search:hover {
   background: #48484a;
 }
 
