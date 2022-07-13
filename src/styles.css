@@ -254,6 +254,7 @@ footer a:hover {
     position: relative;
     bottom: 87px;
   }
+
   .by-footer {
     color: #e5e5e5;
   }
@@ -263,6 +264,7 @@ footer a:hover {
   /* .btn {
     width: auto !important;
   } */
+
   ul.world-cities {
     font-size: 12px;
   }
