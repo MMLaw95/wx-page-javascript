@@ -29,8 +29,16 @@ body {
     #422022,
     #000000
   ); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to top,
+    #d1cece,
+    #989696,
+    #636262,
+    #323232,
+    #000000
+  ); */
+  background-image: linear-gradient(
+    to right,
     #d1cece,
     #989696,
     #636262,
