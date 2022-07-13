@@ -254,3 +254,11 @@ function lookUpLagos(event) {
 clickLagos.addEventListener("click", lookUpLagos);
 
 search("Austin");
+
+// function changeFont() {
+//   let element = document.getElementById("star-city");
+//   element.style.fontSize = "58px";
+
+//   if element
+
+// }

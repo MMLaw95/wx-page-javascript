@@ -297,6 +297,11 @@ footer a:hover {
     width: auto !important;
   } */
 
+  .world-cities li a {
+    color: white;
+    text-shadow: none;
+  }
+
   ul.world-cities {
     font-size: 12px;
   }
