@@ -75,13 +75,20 @@ ul.world-cities {
     -1px -1px 0 #fff;
 }
 
+.world-cities li a:hover {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: none;
+}
+
 form .form-control:focus {
   border-color: #000;
 }
 
 #press-one {
   background: #000;
-  color: white;
+  color: #fff;
   transition: all 0.2s ease-in-out;
 }
 
