@@ -234,6 +234,21 @@ footer a:hover {
   color: #000;
 }
 
+/* @media only screen and (min-device-width: 768px) and (min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .star-city {
+    position: relative;
+    top: 19px;
+  }
+  img#current-emoji {
+    position: relative;
+    bottom: 13px;
+  }
+  .current-focus-details {
+    position: relative;
+    bottom: -30;
+  }
+} */
+
 @media (max-width: 768px) {
   body {
     background-color: #000;
