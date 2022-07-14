@@ -2,17 +2,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/636/original/world.png?1650820813");
-  background-position: center 40px;
-  background-repeat: no-repeat;
-  background-size: 900px 575px;
-  background-color: #dee2e6;
-  overflow-x: hidden;
-} */
-
 body {
-  margin: 0px 2px 20px;
   /* background-image: linear-gradient(
     to bottom,
     #db9a16,
@@ -29,6 +19,7 @@ body {
     #422022,
     #000000
   ); */
+  margin: 0px 2px 20px;
   background-image: linear-gradient(
     to top,
     #d1cece,
@@ -40,15 +31,10 @@ body {
   background-position: center 40px;
   background-repeat: no-repeat;
   background-size: 768px 575px;
-  overflow-x: hidden;
 }
 
 .container {
   max-width: 680px;
-}
-
-.weather-app {
-  border-radius: 25px;
 }
 
 ul.world-cities {
@@ -127,7 +113,9 @@ a:link {
 }
 
 .weather-temperature a:hover {
-  color: black;
+  text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+    -1px -1px 0 #fff;
+  color: #000;
 }
 
 #fahrenheit-link:inactive {
