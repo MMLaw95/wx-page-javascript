@@ -255,6 +255,28 @@ clickLagos.addEventListener("click", lookUpLagos);
 
 search("Austin");
 
+// let schedule = new Date().getHours();
+// if ( schedule < 12) {
+//     document.body.style.backgroundImage = "background-image: linear-gradient(
+//     to top,
+//     #db9a16,
+//     #b5652b,
+//     #7f3d2e,
+//     #422022,
+//     #000000
+//   );
+// ";
+// } else if (schedule < 24) {
+//     document.body.style.backgroundImage = "background-image: linear-gradient(
+//     to top,
+//     #d1cece,
+//     #989696,
+//     #636262,
+//     #323232,
+//     #000000
+// ";
+// }
+
 // function changeFont() {
 //   let element = document.getElementById("star-city");
 //   element.style.fontSize = "58px";

@@ -148,7 +148,7 @@ img#current-emoji {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  bottom: -1px;
+  bottom: 0px;
 }
 
 .current-focus-details {
