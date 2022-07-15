@@ -148,7 +148,7 @@ img#current-emoji {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  bottom: 10px;
+  bottom: -1px;
 }
 
 .current-focus-details {
@@ -156,7 +156,7 @@ img#current-emoji {
   font-weight: 400;
   color: #fff;
   position: relative;
-  bottom: -31px;
+  top: 35px;
 }
 
 ul.current-details {
@@ -193,7 +193,7 @@ ul.current-details {
 
 .group-days {
   position: relative;
-  bottom: 33px;
+  bottom: 22px;
 }
 .list-group-item {
   color: #000;
@@ -218,7 +218,7 @@ footer a:hover {
 }
 
 .by-footer {
-  margin: -29px;
+  margin: -31px;
   color: #000;
 }
 
@@ -249,12 +249,12 @@ footer a:hover {
   #star-city {
     text-align: center;
     position: relative;
-    top: -3px;
+    top: 11px;
   }
 
   img#current-emoji {
     position: relative;
-    bottom: 55px;
+    top: -28px;
   }
 
   .current-temp {
@@ -268,7 +268,7 @@ footer a:hover {
   .current-focus-details {
     text-align: center;
     position: relative;
-    bottom: 87px;
+    top: -64px;
   }
 
   .by-footer {
