@@ -242,9 +242,9 @@ footer a:hover {
 } */
 
 @media (max-width: 768px) {
-  /* body {
+  body {
     background-color: #000;
-  } */
+  }
 
   .detail-block {
     text-align: center;
