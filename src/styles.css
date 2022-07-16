@@ -22,8 +22,9 @@ html {
 } */
 
 .container {
-  max-width: 700px;
-  margin: 20px auto;
+  height: 575px;
+  max-width: 768px;
+  margin: 40px auto;
   background-image: linear-gradient(
     to top,
     #d1cece,
@@ -39,7 +40,7 @@ html {
 
 ul.world-cities {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 12px;
   padding: 0;
   list-style: none;
   position: relative;
