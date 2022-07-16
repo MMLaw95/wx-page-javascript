@@ -13,7 +13,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <script
       src="https://kit.fontawesome.com/630ef5f310.js"
       crossorigin="anonymous"
@@ -21,119 +21,136 @@
   </head>
   <body>
     <div class="container">
-     <div class="weather-app">
-
-     <header>
-      <div class="row">
-        <div class="col-md">
+      <div class="weather-app">
+        <header>
+          <div class="row">
+            <div class="col-md">
               <ul class="world-cities">
                 <li class="world-city">
-                    <a href="#" class="city-color" id="city-london">London</a>
-                  </li>
+                  <a href="#" class="city-color" id="city-london">London</a>
+                </li>
                 <li class="world-city">
-                    <a href="#" class="city-color" id="city-tokyo">Tokyo</a>
-                  </li>
+                  <a href="#" class="city-color" id="city-tokyo">Tokyo</a>
+                </li>
                 <li class="world-city">
-                    <a href="#" class="city-color" id="city-newYork">New York</a>
-                  </li>
+                  <a href="#" class="city-color" id="city-newYork">New York</a>
+                </li>
                 <li class="world-city">
-                    <a href="#" class="city-color" id="city-reykjavik">Reykjavik</a>
-                  </li>
+                  <a href="#" class="city-color" id="city-reykjavik"
+                    >Reykjavik</a
+                  >
+                </li>
                 <li class="world-city">
-                    <a href="#" class="city-color d-none d-md-inline" id="city-lagos"
-                      >Lagos</a
-                    >
+                  <a
+                    href="#"
+                    class="city-color d-none d-md-inline"
+                    id="city-lagos"
+                    >Lagos</a
+                  >
                 </li>
               </ul>
-          </div>    
-        </div>
-      
-  </header>
-
-    <section>
-      <div class="row">
-       <div class="col-10">
-        <div class="search-bar">
-          <form class="float-left" id="search-form-input">
-            <input
-              type="search"
-              placeholder="Find your city..."
-              autofocus="on"
-              autocomplete="off"
-              class="form-control shadow-sm rounded-0"
-              id="city-search"
-            />
-        </div>
-        </div>
-        <div class="col-2 p-0"> 
-            <input
-              class="d-none d-md-block form-control btn btn-light shadow-sm rounded-0"
-              type="submit"
-              value="Search"
-              id="press-one"
-            />
-            <button type="submit" class="d-block d-md-none form-control btn btn-light shadow-sm rounded-0" id="mobile-search">Find</button>
-            <!-- <button type="submit" class="d-block d-md-none mobile-search press-one btn form-control"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button> -->
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="row">
-        <div class="col-md detail-block text-center container">
-          <div id="star-city"></div>
-            <img
-              src=""
-              alt="Clear"
-              id="current-emoji"
-              class="d-block"
-              width="220"
-            />
+            </div>
           </div>
+        </header>
 
-          <div class="col-md text-center">
-            <div class="current-focus-details ">
-              <div class="clearfix weather-temperature">
-                <div class="float-right">
-                  <span id="current-temp"></span>
-                  <span id="units"
-                    ><a href="#" id="fahrenheit-link" class="active">°F</a> |<a
-                      href="#"
-                      id="celsius-link"
-                      >°C</a
-                    ></span
-                  >
-                  <ul class="current-details">
-                    <li>
-                      <span id="current-day-date-time"></span>
-                    </li>
-                    <li>Feels Like: <span id="feels-like-temp"></span>°</li>
-                    <li>Humidity: <span id="humidity"></span>%</li>
-                    <li>Wind: <span id="wind-speed"></span> mph</li>
-                    <li>
-                      <span id="weather-description"></span>
-                    </li>
-                    <li>
-                      <button class="btn btn-light rounded-0" id="press-two" type="click">
-                        Current Location
-                      </button>
-                    </li>
-                  </ul>
+        <section>
+          <form class="float-left" id="search-form-input">
+            <div class="row">
+              <div class="col-10">
+                <div class="search-bar">
+                  <input
+                    type="search"
+                    placeholder="Find your city..."
+                    autofocus="on"
+                    autocomplete="off"
+                    class="form-control shadow-sm rounded-0"
+                    id="city-search"
+                  />
+                </div>
+              </div>
+              <div class="col-2">
+                <input
+                  class="d-none d-md-block form-control btn btn-light shadow-sm rounded-0"
+                  type="submit"
+                  value="Search"
+                  id="press-one"
+                />
+                <button
+                  type="submit"
+                  class="d-block d-md-none form-control btn btn-light shadow-sm rounded-0"
+                  id="mobile-search"
+                >
+                  Find
+                </button>
+                <!-- <button type="submit" class="d-block d-md-none mobile-search press-one btn form-control"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button> -->
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <section>
+          <div class="row">
+            <div class="col-md detail-block text-center">
+              <div id="star-city"></div>
+              <img
+                src=""
+                alt="Clear"
+                id="current-emoji"
+                class="d-block"
+                width="220"
+              />
+            </div>
+
+            <div class="col-md text-center">
+              <div class="current-focus-details">
+                <div class="clearfix weather-temperature">
+                  <div class="float-right">
+                    <span id="current-temp"></span>
+                    <span id="units"
+                      ><a href="#" id="fahrenheit-link" class="active">°F</a>
+                      |<a href="#" id="celsius-link">°C</a></span
+                    >
+                    <ul class="current-details">
+                      <li>
+                        <span id="current-day-date-time"></span>
+                      </li>
+                      <li>Feels Like: <span id="feels-like-temp"></span>°</li>
+                      <li>Humidity: <span id="humidity"></span>%</li>
+                      <li>Wind: <span id="wind-speed"></span> mph</li>
+                      <li>
+                        <span id="weather-description"></span>
+                      </li>
+                      <li>
+                        <button
+                          class="btn btn-light rounded-0"
+                          id="press-two"
+                          type="click"
+                        >
+                          Current Location
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="weather-forecast text-center" id="forecast"></div>        
-    </section>
+        <section>
+          <div class="weather-forecast text-center" id="forecast"></div>
+        </section>
 
-<footer><a href="https://github.com/MMLaw95/wx-page-javascript" target="_blank">Open-source</a><span class="by-footer">by</span><a href="mailto:mlawry95@gmail.com">M.M. Lawry</a></footer>
- </div>
- </div> 
- </div>  
-    <script src="/src/app.js"></script>
+        <footer>
+          <a
+            href="https://github.com/MMLaw95/wx-page-javascript"
+            target="_blank"
+            >Open-source</a
+          ><span class="by-footer">by</span
+          ><a href="mailto:mlawry95@gmail.com">M.M. Lawry</a>
+        </footer>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
