@@ -257,7 +257,7 @@ search("Austin");
 
 // let schedule = new Date().getHours();
 // if ( schedule < 12) {
-//     document.body.style.backgroundImage = "background-image: linear-gradient(
+//     document.body.style.backgroundImage = "linear-gradient(
 //     to top,
 //     #db9a16,
 //     #b5652b,
@@ -267,7 +267,7 @@ search("Austin");
 //   );
 // ";
 // } else if (schedule < 24) {
-//     document.body.style.backgroundImage = "background-image: linear-gradient(
+//     document.body.style.backgroundImage = "linear-gradient(
 //     to top,
 //     #d1cece,
 //     #989696,
