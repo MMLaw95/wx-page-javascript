@@ -281,6 +281,29 @@ search("Austin");
 //   let element = document.getElementById("star-city");
 //   element.style.fontSize = "58px";
 
-//   if element
+//   if (element >=  )
 
 // }
+
+// str.length;
+
+const input = document.querySelector("#search-form-input");
+const output = document.querySelector("#star-city");
+const outputContainer = document.querySelector(".container");
+
+const resizeToFfit = () => {
+  let fontSize = window.getComputedStyle(output).fontSize;
+  output.style.fontSize = parseFloat(fontSize) - 1 + "px";
+
+  if (output.clientHeight >= outputContainer.clientHeight) {
+    resizeToFfit();
+  }
+};
+
+function processInput() {
+  output.innerHTML = this.value;
+  output.style.fontSize = "58px";
+  resizeToFfit();
+}
+
+input.addEventListener("input", processInput);
