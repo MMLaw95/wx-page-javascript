@@ -212,7 +212,8 @@ footer,
 footer a {
   text-align: center;
   font-size: 14px;
-  margin: 30px;
+  margin: 65px 30px 30px;
+
   color: #7f3d2e;
   padding: 5px;
 }
@@ -274,6 +275,11 @@ footer a:hover {
     text-align: center;
     position: relative;
     top: -64px;
+  }
+
+  footer,
+  footer a {
+    margin: 30px;
   }
 
   .by-footer {
