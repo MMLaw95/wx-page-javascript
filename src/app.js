@@ -48,7 +48,7 @@ function displayForecast(response) {
   let forecastHTML = `<div class="row group-days px-md-5">`;
   forecast.forEach(function (forecastDay, index) {
     // if (index < 6) {
-    if (index > 0 && index < 6) {
+    if (index > 0 && index < 7) {
       forecastHTML =
         forecastHTML +
         `
