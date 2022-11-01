@@ -87,7 +87,7 @@ function displayForecast(response) {
 }
 
 function getForecast(coordinates) {
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayForecast);
 }
@@ -121,7 +121,7 @@ function displayWeatherConditions(response) {
 }
 
 function search(city) {
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
@@ -133,7 +133,7 @@ function handleSubmit(event) {
 }
 
 function searchLocation(position) {
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
@@ -184,7 +184,7 @@ clickLondon.addEventListener("click", displayLondon);
 
 function lookUpLondon(event) {
   let city = "London";
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
@@ -200,7 +200,7 @@ clickTokyo.addEventListener("click", displayTokyo);
 
 function lookUpTokyo(event) {
   let city = "Tokyo";
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
@@ -216,7 +216,7 @@ clickNewYork.addEventListener("click", displayNewYork);
 
 function lookUpNewYork(event) {
   let city = "New York";
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
@@ -232,7 +232,7 @@ clickReykjavik.addEventListener("click", displayReykjavik);
 
 function lookUpReykjavik(event) {
   let city = "Reykjavik";
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
@@ -248,7 +248,7 @@ clickLagos.addEventListener("click", displayLagos);
 
 function lookUpLagos(event) {
   let city = "Lagos";
-  let apiKey = "3f6be1c407b0d9d1933561808db358ba";
+  let apiKey = "bc5ca568ee2d7c71357ca430a3ff8705";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayWeatherConditions);
 }
