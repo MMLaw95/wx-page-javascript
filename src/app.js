@@ -256,6 +256,25 @@ clickLagos.addEventListener("click", lookUpLagos);
 
 search("Austin");
 
+let schedule = new Date().getHours();
+
+if (schedule < 12) {
+  document.querySelector(".container").style.background =
+    "linear-gradient(to top, #db9a16, #b5652b, #7f3d2e, #422022, #000000)";
+  // "linear-gradient(to top, #000000, #422022, #7f3d2e, #b5652b, #db9a16)";
+  document.querySelector(".container").style.backgroundPosition = "center";
+  document.querySelector(".container").style.backgroundRepeat = "no-repeat";
+  document.querySelector(".container").style.boxShadow =
+    "0px 15px 13px -7px #000000";
+} else if (schedule < 24) {
+  document.querySelector(".container").style.background =
+    "linear-gradient(to top, #d1cece, #989696, #636262, #323232, #000000)";
+  document.querySelector(".container").style.backgroundPosition = "center";
+  document.querySelector(".container").style.backgroundRepeat = "no-repeat";
+  document.querySelector(".container").style.boxShadow =
+    "0px 15px 13px -7px #000000";
+}
+
 // let schedule = new Date().getHours();
 // if ( schedule < 12) {
 //     document.body.style.backgroundImage = "linear-gradient(
@@ -308,3 +327,18 @@ search("Austin");
 // }
 
 // input.addEventListener("input", processInput);
+
+// Checks for time every 2 seconds
+// setInterval(() => {
+//   const d = new Date(), // Create a Date object
+//   // Get the hour from the Date object.
+//   h = ( d.getHours() < 10 ? '0' : '' ) + d.getHours(),
+//   // Set background image based on hour value
+//   backgroundImage = document.body.style.backgroundImage;
+//   if (h >= 12 && h < 24) {
+//     document.body.style.backgroundImage = 'url(if noon)';
+//   }
+//   else if (h >= 0 && h < 12) {
+//     document.body.style.backgroundImage = 'url(if midnight)';
+//   }
+// }, 2000);
