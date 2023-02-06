@@ -2,25 +2,6 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* body {
-  background-image: linear-gradient(
-    to bottom,
-    #db9a16,
-    #b5652b,
-    #7f3d2e,
-    #422022,
-    #000000
-  )
-  background-image: linear-gradient(
-    to top,
-    #db9a16,
-    #b5652b,
-    #7f3d2e,
-    #422022,
-    #000000
-  );
-} */
-
 .container {
   height: 575px;
   max-width: 768px;
