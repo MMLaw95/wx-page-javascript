@@ -259,7 +259,7 @@ search("Austin");
 let currentHour = new Date().getHours();
 let currentScreenSize = window.innerWidth;
 
-if (currentHour < 12 && currentScreenSize < 768) {
+if (currentHour < 12) {
   document.querySelector(".container").style.background =
     "linear-gradient(to top, #db9a16, #b5652b, #7f3d2e, #422022, #000000)";
   document.querySelector(".container").style.backgroundPosition = "center";
@@ -267,7 +267,7 @@ if (currentHour < 12 && currentScreenSize < 768) {
   document.querySelector(".container").style.boxShadow =
     "0px 15px 13px -7px #000000";
   document.querySelector(".list-group-item").style.backgroundColor = "#d3ab7e";
-} else if (currentHour < 24 && currentScreenSize < 768) {
+} else if (currentHour < 24) {
   document.querySelector(".container").style.background =
     "linear-gradient(to top, #d1cece, #989696, #636262, #323232, #000000)";
   document.querySelector(".container").style.backgroundPosition = "center";
