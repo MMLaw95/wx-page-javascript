@@ -183,6 +183,7 @@ ul.current-details {
 .list-group-item {
   color: #000;
   background-color: #ffffff85;
+  position: static;
 }
 
 .lows {
